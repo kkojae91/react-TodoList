@@ -1,0 +1,48 @@
+.ContentItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #e1e4e8;
+  cursor: pointer;
+}
+
+.ContentItem_checked {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #e1e4e8;
+  background-color: #f9fafc;
+}
+
+.ContentItem_title {
+  display: flex;
+  /* justify-content: ; */
+  align-items: center;
+  width: 100%;
+}
+
+.trash_icon {
+  color: #ce841e;
+}
+
+.ContentItem_text_checked {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.ContentItem_text {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.checked_icon {
+  margin-right: 5px;
+}
+
+.unChecked_icon {
+  margin-right: 5px;
+}
